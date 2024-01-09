@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d48f12e2bce331107f44a46efb7f6322</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Trivia Answer</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_d48f12e2bce331107f44a46efb7f6322</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 14:52:15</sys_updated_on>
+        <sys_updated_on>2024-01-09 11:40:04</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -167,30 +167,6 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=521b2262bc2731107f44a46efb7f63b1"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>521b2262bc2731107f44a46efb7f63b1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 14:48:38</sys_created_on>
-        <sys_id>5a1b2262bc2731107f44a46efb7f63d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 14:48:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>521b2262bc2731107f44a46efb7f63b1</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 14:48:38</sys_created_on>
-        <sys_id>1e1b2262bc2731107f44a46efb7f63d1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 14:48:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>step_input_response_body</field>
         <id>521b2262bc2731107f44a46efb7f63b1</id>
@@ -484,11 +460,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:50:12</sys_created_on>
         <sys_id>dd7b6a62bc2731107f44a46efb7f637c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_answer</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_521b2262bc2731107f44a46efb7f63b1_step_output_answer_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:50:12</sys_updated_on>
         <url/>
@@ -1072,11 +1048,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:00:16</sys_created_on>
         <sys_id>35006e26bce331107f44a46efb7f630f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_fd002e26bce331107f44a46efb7f63e7_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:00:16</sys_updated_on>
         <url/>
@@ -1095,11 +1071,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:00:16</sys_created_on>
         <sys_id>b9006e26bce331107f44a46efb7f6315</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Accept</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_fd002e26bce331107f44a46efb7f63e7_u_accept_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:00:16</sys_updated_on>
         <url/>
@@ -1118,11 +1094,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:00:16</sys_created_on>
         <sys_id>f5006e26bce331107f44a46efb7f6312</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Content-Type</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_fd002e26bce331107f44a46efb7f63e7_u_content-type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:00:16</sys_updated_on>
         <url/>
@@ -1501,11 +1477,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:00:16</sys_created_on>
         <sys_id>31002e26bce331107f44a46efb7f63e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Question ID</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_d48f12e2bce331107f44a46efb7f6322_question_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:00:16</sys_updated_on>
         <url/>
@@ -1526,11 +1502,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:00:16</sys_created_on>
         <sys_id>0a006e26bce331107f44a46efb7f6329</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Answer</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d48f12e2bce331107f44a46efb7f6322_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:00:16</sys_updated_on>
         <url/>
@@ -1549,11 +1525,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:48:38</sys_created_on>
         <sys_id>921b2262bc2731107f44a46efb7f63ee</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d48f12e2bce331107f44a46efb7f6322___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:48:38</sys_updated_on>
         <url/>
@@ -1572,11 +1548,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:48:38</sys_created_on>
         <sys_id>961b2262bc2731107f44a46efb7f63dc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_d48f12e2bce331107f44a46efb7f6322___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:48:38</sys_updated_on>
         <url/>
@@ -1764,30 +1740,6 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=1beba6a2bc2731107f44a46efb7f639a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>1beba6a2bc2731107f44a46efb7f639a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 14:52:15</sys_created_on>
-        <sys_id>17eba6a2bc2731107f44a46efb7f63ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 14:52:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>1beba6a2bc2731107f44a46efb7f639a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 14:52:15</sys_created_on>
-        <sys_id>d7eba6a2bc2731107f44a46efb7f63ac</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 14:52:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>step_input_response_body</field>
         <id>1beba6a2bc2731107f44a46efb7f639a</id>
@@ -2081,11 +2033,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:15</sys_created_on>
         <sys_id>97eba6a2bc2731107f44a46efb7f63a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_answer</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_1beba6a2bc2731107f44a46efb7f639a_step_output_answer_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:15</sys_updated_on>
         <url/>
@@ -2669,11 +2621,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:14</sys_created_on>
         <sys_id>03eba6a2bc2731107f44a46efb7f6384</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_47eba6a2bc2731107f44a46efb7f6379_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:14</sys_updated_on>
         <url/>
@@ -2692,11 +2644,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:14</sys_created_on>
         <sys_id>57eba6a2bc2731107f44a46efb7f6387</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Content-Type</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_47eba6a2bc2731107f44a46efb7f6379_u_content-type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:14</sys_updated_on>
         <url/>
@@ -2715,11 +2667,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:14</sys_created_on>
         <sys_id>9beba6a2bc2731107f44a46efb7f638a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Accept</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_47eba6a2bc2731107f44a46efb7f6379_u_accept_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:14</sys_updated_on>
         <url/>
@@ -3098,11 +3050,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:14</sys_created_on>
         <sys_id>47eba6a2bc2731107f44a46efb7f6377</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Question ID</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_c3eba6a2bc2731107f44a46efb7f6370_question_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:14</sys_updated_on>
         <url/>
@@ -3123,11 +3075,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:15</sys_created_on>
         <sys_id>13eba6a2bc2731107f44a46efb7f63b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Answer</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c3eba6a2bc2731107f44a46efb7f6370_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:15</sys_updated_on>
         <url/>
@@ -3146,11 +3098,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:15</sys_created_on>
         <sys_id>1feba6a2bc2731107f44a46efb7f63b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c3eba6a2bc2731107f44a46efb7f6370___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:15</sys_updated_on>
         <url/>
@@ -3169,11 +3121,11 @@ var responseObj = JSON.parse(inputs.step_input_response_body);&#13;
         <sys_created_on>2024-01-08 14:52:15</sys_created_on>
         <sys_id>53eba6a2bc2731107f44a46efb7f63bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_c3eba6a2bc2731107f44a46efb7f6370___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 14:52:15</sys_updated_on>
         <url/>

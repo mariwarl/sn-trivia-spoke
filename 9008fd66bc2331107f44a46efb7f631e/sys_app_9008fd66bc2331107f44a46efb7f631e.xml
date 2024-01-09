@@ -5,7 +5,6 @@
         <enforce_license>none</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
-        <ide_created>GAC</ide_created>
         <installed_as_dependency>false</installed_as_dependency>
         <js_level>es_latest</js_level>
         <licensable>true</licensable>
@@ -25,7 +24,6 @@
         <source>x_snc_sn_trivia_sp</source>
         <store_correlation_id/>
         <store_url/>
-        <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
@@ -54,13 +52,13 @@
         <image_width>2000</image_width>
         <size_bytes>283906</size_bytes>
         <size_compressed>261499</size_compressed>
-        <state>available_conditionally</state>
+        <state>available</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-08 11:05:29</sys_created_on>
         <sys_id>6d08b9a6bc2331107f44a46efb7f636e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 11:19:55</sys_updated_on>
+        <sys_updated_on>2024-01-09 11:47:11</sys_updated_on>
         <table_name>sys_app</table_name>
         <table_sys_id>9008fd66bc2331107f44a46efb7f631e</table_sys_id>
     </sys_attachment>

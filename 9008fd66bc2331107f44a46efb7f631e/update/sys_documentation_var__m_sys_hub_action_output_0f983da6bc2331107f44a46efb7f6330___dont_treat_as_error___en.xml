@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="u_accept" label="Accept" language="en" table="var__m_connection_attributes_ae6cd622bce331107f44a46efb7f630f">
+    <sys_documentation element="__dont_treat_as_error__" label="Don't Treat as Error" language="en" table="var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_accept</element>
+            <element>__dont_treat_as_error__</element>
             <help/>
             <hint/>
-            <label>Accept</label>
+            <label>Don't Treat as Error</label>
             <language>en</language>
-            <name>var__m_connection_attributes_ae6cd622bce331107f44a46efb7f630f</name>
-            <plural>Accept</plural>
+            <name>var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330</name>
+            <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-01-08 13:51:33</sys_created_on>
+            <sys_created_on>2024-01-08 11:27:03</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Accept</sys_name>
+            <sys_name>Don't Treat as Error</sys_name>
             <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
             <sys_policy/>
             <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-            <sys_update_name>sys_documentation_var__m_connection_attributes_ae6cd622bce331107f44a46efb7f630f_u_accept_en</sys_update_name>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330___dont_treat_as_error___en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-01-08 13:51:33</sys_updated_on>
+            <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

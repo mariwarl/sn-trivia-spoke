@@ -3,7 +3,6 @@
         <configuration_template/>
         <connection_type>http_connection</connection_type>
         <id>x_snc_sn_trivia_sp.Trivia</id>
-        <is_internal>false</is_internal>
         <multiple_connections>false</multiple_connections>
         <name>Trivia</name>
         <parent/>

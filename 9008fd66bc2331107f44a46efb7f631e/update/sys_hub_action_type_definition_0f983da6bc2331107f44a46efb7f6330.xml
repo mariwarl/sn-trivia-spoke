@@ -27,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0f983da6bc2331107f44a46efb7f6330</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Trivia Question</sys_name>
         <sys_overrides/>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_0f983da6bc2331107f44a46efb7f6330</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 13:52:59</sys_updated_on>
+        <sys_updated_on>2024-01-09 11:40:02</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -207,30 +207,6 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5dfcf96ebc2331107f44a46efb7f63cc"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5dfcf96ebc2331107f44a46efb7f63cc</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 11:27:03</sys_created_on>
-        <sys_id>21fcf96ebc2331107f44a46efb7f63eb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5dfcf96ebc2331107f44a46efb7f63cc</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 11:27:03</sys_created_on>
-        <sys_id>e1fcf96ebc2331107f44a46efb7f63eb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>step_input_response_body</field>
         <id>5dfcf96ebc2331107f44a46efb7f63cc</id>
@@ -773,11 +749,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:27:03</sys_created_on>
         <sys_id>15fcf96ebc2331107f44a46efb7f63dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_question</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfcf96ebc2331107f44a46efb7f63cc_step_output_question_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
         <url/>
@@ -796,11 +772,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:27:03</sys_created_on>
         <sys_id>1dfcf96ebc2331107f44a46efb7f63e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_difficulty</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfcf96ebc2331107f44a46efb7f63cc_step_output_difficulty_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
         <url/>
@@ -819,11 +795,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:27:03</sys_created_on>
         <sys_id>21fcf96ebc2331107f44a46efb7f63e7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_id</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfcf96ebc2331107f44a46efb7f63cc_step_output_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
         <url/>
@@ -842,11 +818,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:28:42</sys_created_on>
         <sys_id>355d35aebc2331107f44a46efb7f63d0</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_category</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5dfcf96ebc2331107f44a46efb7f63cc_step_output_category_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:28:42</sys_updated_on>
         <url/>
@@ -1311,11 +1287,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 13:52:58</sys_created_on>
         <sys_id>325e1ea2bce331107f44a46efb7f6355</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Credential Value</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c33a79aabc2331107f44a46efb7f6317_sn_auth_token_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 13:52:58</sys_updated_on>
         <url/>
@@ -1334,11 +1310,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 13:52:58</sys_created_on>
         <sys_id>875e1ea2bce331107f44a46efb7f635b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Accept</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c33a79aabc2331107f44a46efb7f6317_u_accept_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 13:52:58</sys_updated_on>
         <url/>
@@ -1357,11 +1333,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 13:52:58</sys_created_on>
         <sys_id>c35e1ea2bce331107f44a46efb7f6358</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Content-Type</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c33a79aabc2331107f44a46efb7f6317_u_content-type_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 13:52:58</sys_updated_on>
         <url/>
@@ -1919,11 +1895,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:27:03</sys_created_on>
         <sys_id>21fcf96ebc2331107f44a46efb7f63fc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
         <url/>
@@ -1942,11 +1918,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:15:09</sys_created_on>
         <sys_id>573a79aabc2331107f44a46efb7f6377</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Question</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330_variable1_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:15:09</sys_updated_on>
         <url/>
@@ -1965,11 +1941,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:15:09</sys_created_on>
         <sys_id>5b3a79aabc2331107f44a46efb7f637e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Question ID</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330_variable123_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:15:09</sys_updated_on>
         <url/>
@@ -1988,11 +1964,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:15:09</sys_created_on>
         <sys_id>cf3a79aabc2331107f44a46efb7f6366</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Difficulty</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:15:09</sys_updated_on>
         <url/>
@@ -2011,11 +1987,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:15:09</sys_created_on>
         <sys_id>df3a79aabc2331107f44a46efb7f637a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Category</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330_variable12_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:15:09</sys_updated_on>
         <url/>
@@ -2034,11 +2010,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:27:03</sys_created_on>
         <sys_id>e1fcf96ebc2331107f44a46efb7f63f6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_0f983da6bc2331107f44a46efb7f6330___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:27:03</sys_updated_on>
         <url/>
@@ -2266,30 +2242,6 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5b8ebdeebc2331107f44a46efb7f63b3"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5b8ebdeebc2331107f44a46efb7f63b3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 11:34:01</sys_created_on>
-        <sys_id>ef8efdeebc2331107f44a46efb7f6318</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5b8ebdeebc2331107f44a46efb7f63b3</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-08 11:34:01</sys_created_on>
-        <sys_id>a38efdeebc2331107f44a46efb7f6319</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>step_input_response_body</field>
         <id>5b8ebdeebc2331107f44a46efb7f63b3</id>
@@ -2832,11 +2784,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:01</sys_created_on>
         <sys_id>278ebdeebc2331107f44a46efb7f63c4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_difficulty</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5b8ebdeebc2331107f44a46efb7f63b3_step_output_difficulty_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
         <url/>
@@ -2855,11 +2807,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:00</sys_created_on>
         <sys_id>538ebdeebc2331107f44a46efb7f63c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_question</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5b8ebdeebc2331107f44a46efb7f63b3_step_output_question_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:00</sys_updated_on>
         <url/>
@@ -2878,11 +2830,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:01</sys_created_on>
         <sys_id>a38efdeebc2331107f44a46efb7f6312</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_id</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5b8ebdeebc2331107f44a46efb7f63b3_step_output_id_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
         <url/>
@@ -2901,11 +2853,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:01</sys_created_on>
         <sys_id>a78efdeebc2331107f44a46efb7f6315</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>step_output_category</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_5b8ebdeebc2331107f44a46efb7f63b3_step_output_category_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
         <url/>
@@ -3631,11 +3583,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:01</sys_created_on>
         <sys_id>2f8efdeebc2331107f44a46efb7f6330</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Question</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_578ebdeebc2331107f44a46efb7f639b_variable1_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
         <url/>
@@ -3654,11 +3606,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:01</sys_created_on>
         <sys_id>638efdeebc2331107f44a46efb7f632d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Difficulty</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_578ebdeebc2331107f44a46efb7f639b_variable_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
         <url/>
@@ -3677,11 +3629,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:01</sys_created_on>
         <sys_id>a38efdeebc2331107f44a46efb7f6338</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Question ID</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_578ebdeebc2331107f44a46efb7f639b_variable123_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
         <url/>
@@ -3700,11 +3652,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:02</sys_created_on>
         <sys_id>af8efdeebc2331107f44a46efb7f633b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_578ebdeebc2331107f44a46efb7f639b___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:02</sys_updated_on>
         <url/>
@@ -3723,11 +3675,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:01</sys_created_on>
         <sys_id>e78efdeebc2331107f44a46efb7f6334</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Category</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_578ebdeebc2331107f44a46efb7f639b_variable12_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:01</sys_updated_on>
         <url/>
@@ -3746,11 +3698,11 @@ if (inputs.step_input_status_code == '200')  {&#13;
         <sys_created_on>2024-01-08 11:34:02</sys_created_on>
         <sys_id>f38efdeebc2331107f44a46efb7f6341</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="SN Trivia Spoke" source="x_snc_sn_trivia_sp">9008fd66bc2331107f44a46efb7f631e</sys_package>
         <sys_policy/>
         <sys_scope display_value="SN Trivia Spoke">9008fd66bc2331107f44a46efb7f631e</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_578ebdeebc2331107f44a46efb7f639b___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-08 11:34:02</sys_updated_on>
         <url/>
